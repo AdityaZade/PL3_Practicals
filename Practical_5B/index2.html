@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Problem 2</title>
+  </head>
+  <body>
+    <header>
+      <h1>A code that counts the digits in a number..</h1>
+    </header>
+<hr>
+    <section>
+      <pre>
+        <code launguage-cpp>
+
+            #include <bits/stdc++.h>
+          using namespace std;
+
+          int countDigit(long long n)
+          {
+              int count = 0;
+              while (n != 0) {
+                  n = n / 10;
+                  ++count;
+              }
+              return count;
+          }
+
+          // Driver code
+          int main(void)
+          {
+              long long n = 123;
+              cout << "Number of digits : "<< countDigit(n);
+              return 0;
+
+
+      </code>
+      </pre>
+
+    </section>
+    <hr>
+<aside >
+  <h4>Input : 123</h4>
+ <h4>Output</h4>
+ <samp>3 <br><small>Press <kbd> Enter</kbd> to Continue</small></samp>
+
+ <h4>Variables Used</h4>
+ <var> n, count</var>
+
+ <h4>Compliexity</h4>
+ <p>O(<sub>log(n)</sub>) not <s>O(n<sup>2</sup>)</s></p>
+ <nav>
+   <a href="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/">Algorithm</a>
+ </nav>
+
+</aside>
+
+        <footer>
+          <h6>CopyRight @ 2018BTECS00111</h6>
+        </footer>
+
+
+  </body>
+</html>
