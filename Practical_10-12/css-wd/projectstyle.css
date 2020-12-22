@@ -1,0 +1,19 @@
+.body{
+  text-align: center;
+  margin:0;
+}
+
+.heading{
+  font-size: 5.625rem;
+  color:#66BFBF;
+  font-family: 'Parisienne', cursive;
+  line-height: 1.8;
+ background-color: #EAF6F6;
+
+}
+.head{
+  width: 50%;
+  margin:0 auto;
+
+
+}
